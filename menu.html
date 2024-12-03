@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Букмекерская Контора</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #1e1e2e, #141419);
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(90deg, #ff5f00, #ff1a00);
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #262626;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-size: 18px;
+            padding: 10px 25px;
+            border: 2px solid transparent;
+            transition: 0.3s;
+            border-radius: 25px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background: #ff5f00;
+            border-color: #ff5f00;
+            color: #fff;
+        }
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+        .category {
+            display: inline-block;
+            margin: 30px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .category a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .category img {
+            width: 250px;
+            height: 250px;
+            border-radius: 20px;
+            transition: transform 0.4s, box-shadow 0.4s;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        .category img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        }
+        .category h3 {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .category p {
+            font-size: 16px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>Букмекерская Контора</header>
+    <nav>
+        <a href="#football">Футбол</a>
+        <a href="#basketball">Баскетбол</a>
+        <a href="#tennis">Теннис</a>
+    </nav>
+    <div class="content">
+        <div id="football" class="category">
+            <a href="file:///C:/Users/Tabaldy%20Beybarys/awa/beybarys.html" target="_blank">
+                <img src="https://via.placeholder.com/250x250?text=Футбол" alt="Футбол">
+                <h3>Футбол</h3>
+                <p>Лучшие прогнозы на футбольные матчи.</p>
+            </a>
+        </div>
+        <div id="basketball" class="category">
+            <a href="file:///C:/Users/Tabaldy%20Beybarys/awa/basketball.htm" target="_blank">
+                <img src="https://via.placeholder.com/250x250?text=Баскетбол" alt="Баскетбол">
+                <h3>Баскетбол</h3>
+                <p>Аналитика для ставок на баскетбол.</p>
+            </a>
+        </div>
+        <div id="tennis" class="category">
+            <a href="file:///C:/Users/Tabaldy%20Beybarys/awa/tennis.html" target="_blank">
+                <img src="https://via.placeholder.com/250x250?text=Теннис" alt="Теннис">
+                <h3>Теннис</h3>
+                <p>Прогнозы на теннисные турниры.</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
